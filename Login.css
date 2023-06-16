@@ -1,0 +1,202 @@
+.card-signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  height: 450px;
+  background-image: url(https://media.tenor.com/p0G_bmA2vSYAAAAd/login.gif);
+  background-size: cover;
+  background-position: center;
+  margin-top: 45px;
+  margin-left: 495px;
+  padding: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container-signin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-signin {
+  width: 150px;
+  height: 150px;
+}
+
+.loading-image {
+  width: 400px;
+  height: 290px;
+  margin-bottom: -100px;
+  
+}
+
+.form-group-signin {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-signin {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.show-password-button-signin {
+  background-color: rgb(248, 248, 248);
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signin-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.signup-button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  margin-bottom: -50px;
+  cursor: pointer;
+  color: #0080ff;
+  text-decoration: underline;
+}
+
+.signup-button:focus,
+.signup-button:hover {
+  color: #ff1515;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button[type="submit-login"] {
+  padding: 10px 20px;
+  margin-bottom: 70px;
+  margin-left: 170px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit-login"]:hover {
+  background-color: #0c0e0c;
+}
+.dhac{
+  margin-top: 130px;
+}
+
+/* Media Queries */
+
+
+
+@media screen and (max-width: 576px) {
+  .card-signin { 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 70px;
+    width: 300px;
+    height: auto;
+    background-image: url(https://media.tenor.com/p0G_bmA2vSYAAAAd/login.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   margin-left: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo-signin {
+    width: auto;
+    height: auto;
+  }
+  
+  .loading-image {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 12px;
+  }
+  
+  .input-signin {
+    font-size: 12px;
+    padding: 8px;
+  }
+  
+  .show-password-button-signin {
+    font-size: 10px;
+  }
+  .show-otp-button-signin {
+    font-size: 10px;
+  }
+  
+  .signin-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .signup-button {
+    font-size: 12px;
+  }
+  
+  .error-message,
+  .success-message {
+    font-size: 10px;
+  }
+  
+  button[type="submit-login"] {
+    padding: 8px 16px;
+    margin-left: 0;
+  }
+  .dhac{
+    margin-bottom: 50px;
+    color: #ff0000;
+  }
+  
+} 
